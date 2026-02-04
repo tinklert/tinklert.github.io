@@ -44,6 +44,36 @@ redirect_from:
   * **Description**: Focused on road pedestrian detection scenarios, improved the traditional HOG feature detection method, integrated Gaussian Mixture Models (GMM) for foreground extraction and denoising, and combined with LBP features to enhance detection performance.
   * **Achievement**: The graduation design was awarded "2020 Hefei University of Technology Excellent Undergraduate Graduation Design".
 
+## Publications
+
+* **Dynamic hypergraph neural networks for consumer purchase path prediction: Integrating promotions, experiences, and store heterogeneity**
+  * J Wu, Q Liu, L Chen, W Zhao, H Liu
+  * *Decision Support Systems*, 2026
+
+* **Incorporating worker rivalry into task recommendations on crowdsourcing platforms: A novel framework for boosting participation and efficiency**
+  * H Liu, W Li, M Chen, J Wu
+  * *Information Processing & Management*, 63 (1), 104310, 2026
+
+* **Apppoet: Large language model based android malware detection via multi-view prompt engineering**
+  * W Zhao, J Wu, Z Meng
+  * *Expert Systems with Applications*, 262, 125546, 2025
+
+* **Demand prediction for bike-sharing systems: A spatial and semantic modeling approach for enhanced accuracy and operational efficiency**
+  * J Wu, J Feng, J Fang, H Liu
+  * *Computers & Industrial Engineering*, 111775, 2025
+
+* **Beyond the Match: Predicting Bilateral-matching Satisfaction with Multi-view Heterogeneous Graph Neural Network**
+  * J Feng, H Liu, J Wu, H Liu, P Zhao
+  * 2025
+
+* **Unveiling consumer preferences: A two-stage deep learning approach to enhance accuracy in multi-channel retail sales forecasting**
+  * J Wu, H Liu, X Yao, L Zhang
+  * *Expert Systems with Applications*, 257, 125066, 2024
+
+* **Optimizing Restaurant Customer Flow and Revenue with Real-Time Coupon Allocation: A Deep Reinforcement Learning Approach**
+  * J Feng, J Wu, M Chen, J Qin
+  * 2024
+
 ## Awards
 
 * **2020.06**: Outstanding Graduation Thesis of Hefei University of Technology
@@ -55,4 +85,3 @@ redirect_from:
 
 * **Core Courses**: Operations Research, Machine Learning, Convex Optimization, Game Theory, Stochastic System Modeling and Simulation, Algorithm Design Science
 * **Language Proficiency**: CET-6 (516)
-* **Academic Achievements**: 5 papers published (including conferences), Google Scholar Citations: 45.
