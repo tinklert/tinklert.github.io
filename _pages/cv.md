@@ -46,33 +46,33 @@ redirect_from:
 
 ## Publications
 
-* **Dynamic hypergraph neural networks for consumer purchase path prediction: Integrating promotions, experiences, and store heterogeneity**
+* **Dynamic hypergraph neural networks for consumer purchase path prediction: Integrating promotions, experiences, and store heterogeneity** [[Download PDF]](https://doi.org/10.1016/j.dss.2025.114421)
   * J Wu, Q Liu, L Chen, W Zhao, H Liu
   * *Decision Support Systems*, 2026
 
-* **Incorporating worker rivalry into task recommendations on crowdsourcing platforms: A novel framework for boosting participation and efficiency**
+* **Incorporating worker rivalry into task recommendations on crowdsourcing platforms: A novel framework for boosting participation and efficiency** [[Download PDF]](https://doi.org/10.1016/j.ipm.2026.104310)
   * H Liu, W Li, M Chen, J Wu
   * *Information Processing & Management*, 63 (1), 104310, 2026
 
-* **Apppoet: Large language model based android malware detection via multi-view prompt engineering**
+* **Apppoet: Large language model based android malware detection via multi-view prompt engineering** [[Download PDF]](https://doi.org/10.1016/j.eswa.2025.125546)
   * W Zhao, J Wu, Z Meng
   * *Expert Systems with Applications*, 262, 125546, 2025
 
-* **Demand prediction for bike-sharing systems: A spatial and semantic modeling approach for enhanced accuracy and operational efficiency**
+* **Demand prediction for bike-sharing systems: A spatial and semantic modeling approach for enhanced accuracy and operational efficiency** [[Download PDF]](https://doi.org/10.1016/j.cie.2025.111775)
   * J Wu, J Feng, J Fang, H Liu
   * *Computers & Industrial Engineering*, 111775, 2025
 
-* **Beyond the Match: Predicting Bilateral-matching Satisfaction with Multi-view Heterogeneous Graph Neural Network**
+* **Beyond the Match: Predicting Bilateral-matching Satisfaction with Multi-view Heterogeneous Graph Neural Network** [[Download PDF]](https://aisel.aisnet.org/icis2025/da_bus/da_bus/4/)
   * J Feng, H Liu, J Wu, H Liu, P Zhao
-  * 2025
+  * *ICIS 2025 Proceedings*, 2025
 
-* **Unveiling consumer preferences: A two-stage deep learning approach to enhance accuracy in multi-channel retail sales forecasting**
+* **Unveiling consumer preferences: A two-stage deep learning approach to enhance accuracy in multi-channel retail sales forecasting** [[Download PDF]](https://doi.org/10.1016/j.eswa.2024.125066)
   * J Wu, H Liu, X Yao, L Zhang
   * *Expert Systems with Applications*, 257, 125066, 2024
 
-* **Optimizing Restaurant Customer Flow and Revenue with Real-Time Coupon Allocation: A Deep Reinforcement Learning Approach**
+* **Optimizing Restaurant Customer Flow and Revenue with Real-Time Coupon Allocation: A Deep Reinforcement Learning Approach** [[Download PDF]](https://aisel.aisnet.org/icis2024/data_soc/data_soc/9/)
   * J Feng, J Wu, M Chen, J Qin
-  * 2024
+  * *ICIS 2024 Proceedings*, 2024
 
 ## Awards
 
