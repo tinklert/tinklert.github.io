@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+* **Email**: wjt99@mail.ustc.edu.cn
+
 ## Education
 
 * **2023.09 - 2026.06 (Expected)**: University of Science and Technology of China (USTC), Management Science and Engineering (PhD)
