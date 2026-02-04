@@ -46,9 +46,9 @@ redirect_from:
 
 ## Publications
 
-* **Dynamic hypergraph neural networks for consumer purchase path prediction: Integrating promotions, experiences, and store heterogeneity** [[Download PDF]](https://doi.org/10.1016/j.dss.2025.114421)
+* **Dynamic hypergraph neural networks for consumer purchase path prediction: Integrating promotions, experiences, and store heterogeneity** [[Download PDF]](https://doi.org/10.1016/j.dss.2026.114614)
   * J Wu, Q Liu, L Chen, W Zhao, H Liu
-  * *Decision Support Systems*, 2026
+  * *Decision Support Systems*, 114614, 2026
 
 * **Incorporating worker rivalry into task recommendations on crowdsourcing platforms: A novel framework for boosting participation and efficiency** [[Download PDF]](https://doi.org/10.1016/j.ipm.2026.104310)
   * H Liu, W Li, M Chen, J Wu
