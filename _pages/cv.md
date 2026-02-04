@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "简历"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,51 +9,50 @@ redirect_from:
 
 {% include base_path %}
 
-## 教育背景
+## Education
 
-* **2023.09 - 2026.06 (预计)**: 中国科学技术大学, 管理科学与工程 (博士)
-* **2021.09 - 2023.06**: 中国科学技术大学, 管理科学与工程 (硕士)
-* **2016.09 - 2020.06**: 合肥工业大学, 工业工程 (本科)
+* **2023.09 - 2026.06 (Expected)**: University of Science and Technology of China (USTC), Management Science and Engineering (PhD)
+* **2021.09 - 2023.06**: University of Science and Technology of China (USTC), Management Science and Engineering (Master)
+* **2016.09 - 2020.06**: Hefei University of Technology (HFUT), Industrial Engineering (Bachelor)
 
-## 实习经历
+## Internship Experience
 
-* **2024.06 - 至今**: **企迈科技**, 算法工程师
-* **2023.04 - 2023.06**: **老乡鸡**, 算法开发实习生
-* **2022.06 - 2023.03**: **浙江盈阳资产**, 量化研究实习生
+* **2024.06 - Present**: **Qimai Technology**, Algorithm Engineer
+* **2023.04 - 2023.06**: **Home Original Chicken (Lao Xiang Ji)**, Algorithm Development Intern
+* **2022.06 - 2023.03**: **Zhejiang Yingyang Asset**, Quantitative Research Intern
 
-## 研究经历
+## Research Experience
 
-* **2025.03 - 2025.08**: **恶意消费者检测算法设计**
-  * **课题简介**：通过对消费者跨渠道行为的建模以及消费者在页面浏览的细粒度过程中的认知资源投入进行联合建模，以及通过图神经网络挖掘用户IP地址的网络，对恶意消费者进行检测。
-  * **课题成果**：该算法应用在实习公司并服务一家大型上市茶饮企业。
+* **2025.03 - 2025.08**: **Malicious Consumer Detection Algorithm Design**
+  * **Description**: Jointly modeled consumer cross-channel behavior and cognitive resource investment during fine-grained page browsing processes. Utilized Graph Neural Networks (GNN) to mine user IP address networks for detecting malicious consumers.
+  * **Achievement**: The algorithm was applied in the internship company, serving a large listed tea beverage enterprise.
 
-* **2024.04 - 2025.03**: **基于解耦归因的消费者营销响应预测算法**
-  * **课题简介**：将消费者复购行为分解为“惯性”和“营销刺激”两大驱动力。使用异构图神经网络建模用户长期惯性，并用动态时序模型捕捉营销疲劳与即时反应。通过解耦注意力机制，归因预测与实际的偏差，以精准预测消费者响应。
+* **2024.04 - 2025.03**: **Consumer Marketing Response Prediction Based on Decoupled Attribution**
+  * **Description**: Decomposed consumer repurchase behavior into "inertia" and "marketing stimulus". Used Heterogeneous Graph Neural Networks (HGNN) to model long-term user inertia, and dynamic time-series models to capture marketing fatigue and immediate reactions. Employed a decoupled attention mechanism to attribute the deviation between prediction and reality for precise consumer response prediction.
 
-* **2023.05 - 2024.01**: **基于消费者偏好挖掘的全门店全产品销量预测**
-  * **课题简介**：采用两阶段深度学习方法，先用异构图神经网络挖掘具有相似偏好的用户群体，再利用消费者偏好注意力机制融合数据，进行销量预测。
-  * **课题成果**：算法已在实习公司上线，服务超千家门店。
+* **2023.05 - 2024.01**: **Full-Store All-Product Sales Prediction Based on Consumer Preference Mining**
+  * **Description**: Adopted a two-stage deep learning approach. First, used Heterogeneous Graph Neural Networks to mine user groups with similar preferences. Then, utilized a consumer preference attention mechanism to fuse data for sales prediction.
+  * **Achievement**: The algorithm was launched in the internship company, serving over a thousand stores.
 
-* **2022.05 - 2023.03**: **基于图神经网络的共享出行需求预测**
-  * **课题简介**：结合图卷积网络（GCN）与长短期记忆网络（LSTM），分别提取共享单车站点的空间位置特征与时序需求信息，综合多维因素进行需求预测建模。
+* **2022.05 - 2023.03**: **Shared Mobility Demand Prediction Based on Graph Neural Networks**
+  * **Description**: Combined Graph Convolutional Networks (GCN) and Long Short-Term Memory (LSTM) networks to extract spatial location features and temporal demand information of shared bike stations, respectively, integrating multi-dimensional factors for demand prediction modeling.
 
-* **2021.09 - 2022.05**: **基于深度学习的业务流程欺诈检测**
-  * **课题简介**：综合分析员工的交易数据、个人信息与汇报文本，提取多维度特征，构建欺诈检测算法。在真实数据集上，模型召回率达92%，AUC达97%。
+* **2021.09 - 2022.05**: **Business Process Fraud Detection Based on Deep Learning**
+  * **Description**: Comprehensively analyzed employee transaction data, personal information, and reporting texts to extract multi-dimensional features and build a fraud detection algorithm. On a real-world dataset, the model achieved a recall rate of 92% and an AUC of 97%.
 
-* **2019.12 - 2020.06**: **基于机器视觉的道路行人检测系统设计** (毕业论文)
-  * **课题简介**：围绕道路行人检测场景，改进传统HOG特征检测方法，融合混合高斯模型进行前景提取与降噪，并结合LBP特征提升检测效果。
-  * **课题成果**：毕业设计被评为“2020年合肥工业大学本科优秀毕业设计”。
+* **2019.12 - 2020.06**: **Road Pedestrian Detection System Design Based on Machine Vision** (Graduation Thesis)
+  * **Description**: Focused on road pedestrian detection scenarios, improved the traditional HOG feature detection method, integrated Gaussian Mixture Models (GMM) for foreground extraction and denoising, and combined with LBP features to enhance detection performance.
+  * **Achievement**: The graduation design was awarded "2020 Hefei University of Technology Excellent Undergraduate Graduation Design".
 
-## 获得奖项
+## Awards
 
-* **2020.06**: 合肥工业大学优秀毕业论文
-* **2019.08**: 第五届“互联网+”创新创业大赛创意组银奖
-* **2018.01**: 党委学生工作部校级“先进个人”
-* **2017.05**: “五四”评优“优秀团干”
+* **2020.06**: Outstanding Graduation Thesis of Hefei University of Technology
+* **2019.08**: Silver Award in the Creative Group of the 5th "Internet+" Innovation and Entrepreneurship Competition
+* **2018.01**: University-level "Advanced Individual" by the Student Work Department of the Party Committee
+* **2017.05**: "Excellent Youth League Cadre" in the "May Fourth" Evaluation
 
-## 技能与课程
+## Skills and Courses
 
-* **核心课程**: 运筹学, 机器学习, 凸优化, 博弈论, 随机系统建模与仿真, 算法设计科学
-* **语言能力**: CET-6 (516分)
-* **学术成果**: 已发表论文5篇（包含会议），谷歌学术引用量 45。
-
+* **Core Courses**: Operations Research, Machine Learning, Convex Optimization, Game Theory, Stochastic System Modeling and Simulation, Algorithm Design Science
+* **Language Proficiency**: CET-6 (516)
+* **Academic Achievements**: 5 papers published (including conferences), Google Scholar Citations: 45.

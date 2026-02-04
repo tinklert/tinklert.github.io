@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "吴俊涛的个人主页"
+title                    : "Juntao Wu's Homepage"
 title_separator          : "-"
-name                     : &name "吴俊涛"
-description              : &description "吴俊涛的在线简历与学术主页"
+name                     : &name "Juntao Wu"
+description              : &description "Juntao Wu's Online Resume and Academic Homepage"
 url                      : https://tinklert.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,11 +24,11 @@ repository               : "tinklert/tinklert.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "吴俊涛"
+  name             : "Juntao Wu"
   pronouns         : # example: "she/her"  
-  bio              : "中国科学技术大学<br>管理科学与工程 博士生"
-  location         : "中国，合肥"
-  employer         : "中国科学技术大学"
+  bio              : "University of Science and Technology of China<br>PhD Student in Management Science and Engineering"
+  location         : "Hefei, China"
+  employer         : "University of Science and Technology of China"
   uri              : # URL
   email            : "wjt99@mail.ustc.edu.cn" 
 
