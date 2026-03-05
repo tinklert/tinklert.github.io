@@ -5,32 +5,199 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<style>
+/* Clean, Fast, and Elegant Publication Aesthetic */
+:root {
+  --primary: #3b82f6;
+  --secondary: #6366f1;
+  --bg-color: #ffffff;
+  --card-bg: #f8fafc;
+  --card-border: #e2e8f0;
+  --text-main: #1e293b;
+  --text-muted: #475569;
+}
 
+.clean-pubs {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text-main);
+  background: var(--bg-color);
+  line-height: 1.6;
+}
 
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary);
+  display: inline-block;
+}
 
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.pub-item {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--card-border);
+}
+
+.pub-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.pub-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+}
+
+.pub-authors {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.pub-authors strong {
+  color: var(--primary);
+}
+
+.pub-venue {
+  font-style: italic;
+  color: var(--secondary);
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.btn-download {
+  display: inline-block;
+  background: #f1f5f9;
+  color: var(--primary) !important;
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-weight: 500;
+  border: 1px solid #cbd5e1;
+}
+
+.btn-download:hover {
+  background: var(--primary);
+  color: #ffffff !important;
+  border-color: var(--primary);
+}
+
+.wordwrap a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.wordwrap a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="clean-pubs">
+  {% if site.author.googlescholar %}
+    <div class="wordwrap" style="margin-bottom: 2rem; font-size: 1.05rem;">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  {% endif %}
+
+  <h2 class="section-title">Published Papers</h2>
+  <div class="pub-list">
+    
+    <div class="pub-item">
+      <div class="pub-title">Dynamic hypergraph neural networks for consumer purchase path prediction: Integrating promotions, experiences, and store heterogeneity</div>
+      <div class="pub-authors"><strong>J Wu</strong>, Q Liu, L Chen, W Zhao, H Liu</div>
+      <div class="pub-venue">Decision Support Systems, 114614, 2026</div>
+      <a href="https://doi.org/10.1016/j.dss.2026.114614" class="btn-download" target="_blank" rel="noopener noreferrer">Download PDF</a>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">Incorporating worker rivalry into task recommendations on crowdsourcing platforms: A novel framework for boosting participation and efficiency</div>
+      <div class="pub-authors">H Liu, W Li, M Chen, <strong>J Wu</strong></div>
+      <div class="pub-venue">Information Processing & Management, 63 (1), 104310, 2026</div>
+      <a href="https://doi.org/10.1016/j.ipm.2026.104310" class="btn-download" target="_blank" rel="noopener noreferrer">Download PDF</a>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">Apppoet: Large language model based android malware detection via multi-view prompt engineering</div>
+      <div class="pub-authors">W Zhao, <strong>J Wu</strong>, Z Meng</div>
+      <div class="pub-venue">Expert Systems with Applications, 262, 125546, 2025</div>
+      <a href="https://doi.org/10.1016/j.eswa.2025.125546" class="btn-download" target="_blank" rel="noopener noreferrer">Download PDF</a>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">Demand prediction for bike-sharing systems: A spatial and semantic modeling approach for enhanced accuracy and operational efficiency</div>
+      <div class="pub-authors"><strong>J Wu</strong>, J Feng, J Fang, H Liu</div>
+      <div class="pub-venue">Computers & Industrial Engineering, 111775, 2025</div>
+      <a href="https://doi.org/10.1016/j.cie.2025.111775" class="btn-download" target="_blank" rel="noopener noreferrer">Download PDF</a>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">Beyond the Match: Predicting Bilateral-matching Satisfaction with Multi-view Heterogeneous Graph Neural Network</div>
+      <div class="pub-authors">J Feng, H Liu, <strong>J Wu</strong>, H Liu, P Zhao</div>
+      <div class="pub-venue">ICIS 2025 Proceedings</div>
+      <a href="https://aisel.aisnet.org/icis2025/da_bus/da_bus/4/" class="btn-download" target="_blank" rel="noopener noreferrer">Download PDF</a>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">Unveiling consumer preferences: A two-stage deep learning approach to enhance accuracy in multi-channel retail sales forecasting</div>
+      <div class="pub-authors"><strong>J Wu</strong>, H Liu, X Yao, L Zhang</div>
+      <div class="pub-venue">Expert Systems with Applications, 257, 125066, 2024</div>
+      <a href="https://doi.org/10.1016/j.eswa.2024.125066" class="btn-download" target="_blank" rel="noopener noreferrer">Download PDF</a>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">Optimizing Restaurant Customer Flow and Revenue with Real-Time Coupon Allocation: A Deep Reinforcement Learning Approach</div>
+      <div class="pub-authors">J Feng, <strong>J Wu</strong>, M Chen, J Qin</div>
+      <div class="pub-venue">ICIS 2024 Proceedings</div>
+      <a href="https://aisel.aisnet.org/icis2024/data_soc/data_soc/9/" class="btn-download" target="_blank" rel="noopener noreferrer">Download PDF</a>
+    </div>
+
+  </div>
+
+  <h2 class="section-title">Working Papers</h2>
+  <div class="pub-list" style="margin-bottom: 2rem;">
+    
+    <div class="pub-item">
+      <div class="pub-title">Bridging Spaces: A Spatio-Temporal Fusion Model for Dynamic Intra- and Inter-Brand Competition in Sales Forecasting</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong>, Qianzhou Du, Hefu Liu</div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">Combating Organized Promotion Abuse in Omnichannel Commerce: An Information Foraging Perspective on Graph-Based Anomaly Detection</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong>, Hongfei Bao, Qian Huang, Hefu Liu</div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">Habit from Hype: A Disentangled Graph-Temporal Framework for Modeling Consumer Marketing Response</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong>, Hefu Liu</div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">DualDependency: Capturing Consumer Path and Motivation Dynamics in Multi-Task Repurchase Prediction</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong>, Hefu Liu</div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-title">Beyond the Mean Field: A Coupled Neuro-Dynamics Framework for Coupon-Driven Sales Forecasting with Fluctuation Corrections</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong></div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
+    </div>
+
+  </div>
+
+</div>

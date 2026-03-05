@@ -227,6 +227,10 @@ redirect_from:
     </div>
   </div>
 
+  <div style="background: var(--card-bg); border-left: 4px solid var(--primary); padding: 1.5rem; margin-bottom: 2.5rem; border-radius: 0 8px 8px 0; font-size: 1.05rem; line-height: 1.6; color: var(--text-main); box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+    Juntao Wu is a Ph.D. candidate at the School of Management, University of Science and Technology of China. He earned his B.S. degree with Hefei University of Technology and is working toward his Ph.D. degree with the University of Science and Technology of China. His research areas include information systems, omni-channel retail, consumer behavior analysis, and data mining applications, etc. He has published in leading international journals and conferences such as <em>Decision Support Systems</em>, <em>Information Processing & Management</em>, <em>Expert Systems with Applications</em>, <em>Computers & Industrial Engineering</em>, and <em>International Conference on Information Systems (ICIS)</em>, among others.
+  </div>
+
   <h2 class="section-title">Education</h2>
   <div>
     <div class="cv-item">
