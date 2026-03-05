@@ -23,7 +23,7 @@ repository               : "tinklert/tinklert.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile_photo.jpg"
   name             : "Juntao Wu"
   pronouns         : # example: "she/her"  
   bio              : "University of Science and Technology of China<br>PhD Student in Management Science and Engineering"
