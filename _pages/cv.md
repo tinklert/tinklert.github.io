@@ -220,6 +220,7 @@ redirect_from:
 <div class="clean-cv">
   
   <div class="cv-header">
+    <img src="/images/profile_photo.jpg" alt="Profile Photo" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin-bottom: 1.5rem; border: 4px solid var(--card-border); box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
     <h1>Curriculum Vitae</h1>
     <p>wjt99@mail.ustc.edu.cn &bull; Hefei, China</p>
     <div style="margin-top: 1rem;">
