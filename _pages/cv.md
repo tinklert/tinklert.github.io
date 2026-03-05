@@ -227,8 +227,16 @@ redirect_from:
     </div>
   </div>
 
-  <div style="background: var(--card-bg); border-left: 4px solid var(--primary); padding: 1.5rem; margin-bottom: 2.5rem; border-radius: 0 8px 8px 0; font-size: 1.05rem; line-height: 1.6; color: var(--text-main); box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
+  <div style="background: var(--card-bg); border-left: 4px solid var(--primary); padding: 1.5rem; margin-bottom: 1.5rem; border-radius: 0 8px 8px 0; font-size: 1.05rem; line-height: 1.6; color: var(--text-main); box-shadow: 0 1px 3px rgba(0,0,0,0.02);">
     Juntao Wu is a Ph.D. candidate at the School of Management, University of Science and Technology of China. He earned his B.S. degree with Hefei University of Technology and is working toward his Ph.D. degree with the University of Science and Technology of China. His research areas include information systems, omni-channel retail, consumer behavior analysis, and data mining applications, etc. He has published in leading international journals and conferences such as <em>Decision Support Systems</em>, <em>Information Processing & Management</em>, <em>Expert Systems with Applications</em>, <em>Computers & Industrial Engineering</em>, and <em>International Conference on Information Systems (ICIS)</em>, among others.
+  </div>
+
+  <div style="text-align: center; margin-bottom: 2.5rem; padding: 1rem 2rem; position: relative;">
+    <span style="font-size: 3rem; color: #e2e8f0; position: absolute; left: 0; top: -10px; font-family: serif;">"</span>
+    <p style="font-size: 1.15rem; color: #475569; font-style: italic; margin: 0; font-family: 'STKaiti', 'KaiTi', '楷体', serif; line-height: 1.8; letter-spacing: 1px;">
+      天将降大任于是人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为，所以动心忍性，曾益其所不能。
+    </p>
+    <span style="font-size: 3rem; color: #e2e8f0; position: absolute; right: 0; bottom: -30px; font-family: serif;">"</span>
   </div>
 
   <h2 class="section-title">Education</h2>
