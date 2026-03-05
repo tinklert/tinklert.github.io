@@ -506,6 +506,9 @@ body {
   <div class="cv-header fade-in-up">
     <h1>Curriculum Vitae</h1>
     <p>wjt99@mail.ustc.edu.cn &bull; Hefei, China</p>
+    <div style="margin-top: 1rem; display: inline-block;">
+      <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Ftinklert.github.io%2Fcv&count_bg=%238B5CF6&title_bg=%230F172A&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=true"/></a>
+    </div>
   </div>
 
   <h2 class="section-header fade-in-up">Education</h2>
@@ -727,6 +730,41 @@ body {
         <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
         Download PDF
       </a>
+    </div>
+
+  </div>
+
+  <h2 class="section-header fade-in-up">Working Papers</h2>
+  <div class="pub-list">
+    
+    <div class="pub-item fade-in-up">
+      <div class="pub-title">Bridging Spaces: A Spatio-Temporal Fusion Model for Dynamic Intra- and Inter-Brand Competition in Sales Forecasting</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong>, Qianzhou Du, Hefu Liu</div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
+    </div>
+
+    <div class="pub-item fade-in-up">
+      <div class="pub-title">Combating Organized Promotion Abuse in Omnichannel Commerce: An Information Foraging Perspective on Graph-Based Anomaly Detection</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong>, Hongfei Bao, Qian Huang, Hefu Liu</div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
+    </div>
+
+    <div class="pub-item fade-in-up">
+      <div class="pub-title">Habit from Hype: A Disentangled Graph-Temporal Framework for Modeling Consumer Marketing Response</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong>, Hefu Liu</div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
+    </div>
+
+    <div class="pub-item fade-in-up">
+      <div class="pub-title">DualDependency: Capturing Consumer Path and Motivation Dynamics in Multi-Task Repurchase Prediction</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong>, Hefu Liu</div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
+    </div>
+
+    <div class="pub-item fade-in-up">
+      <div class="pub-title">Beyond the Mean Field: A Coupled Neuro-Dynamics Framework for Coupon-Driven Sales Forecasting with Fluctuation Corrections</div>
+      <div class="pub-authors"><strong>Juntao Wu</strong></div>
+      <div class="pub-venue" style="margin-bottom: 0;">Working Paper</div>
     </div>
 
   </div>
