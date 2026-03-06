@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Juntao Wu's Homepage"
+title                    : "吴俊涛 (Juntao Wu) - Personal Homepage"
 title_separator          : "-"
 name                     : &name "Juntao Wu"
-description              : &description "Juntao Wu's Online Resume and Academic Homepage"
+description              : &description "吴俊涛 (Juntao Wu) | PhD Student at USTC | Management Science & Engineering | AI, Graph Neural Networks, Consumer Analytics"
 url                      : https://tinklert.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,7 +24,7 @@ repository               : "tinklert/tinklert.github.io"
 author:
   # Biographic information
   avatar           : "profile_photo.jpg"
-  name             : "Juntao Wu"
+  name             : "Juntao Wu (吴俊涛)"
   pronouns         : # example: "she/her"  
   bio              : "University of Science and Technology of China<br>PhD Student in Management Science and Engineering"
   location         : "Hefei, China"
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/0009-0008-7746-7131"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL - not applicable
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "tinklert"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username - not used
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -130,7 +130,10 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+# Submit your sitemap to Google: https://search.google.com/search-console
+# Submit your sitemap to Bing: https://www.bing.com/webmasters
+# After verifying, paste the verification codes below:
+google_site_verification : "DN-R0zn4WOmWLC5YIqSQB4zd5Nop__i5NrqjRqF6wBI"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
